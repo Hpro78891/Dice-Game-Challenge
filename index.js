@@ -22,12 +22,12 @@ var image2 = document.querySelectorAll("img")[1].setAttribute("src", randomImage
 // Which Player Wins
 
 if(randomNumber1 > randomNumber2) {
-    document.querySelector("h1").innerHTML ="player 1 wins!";
+    document.querySelector("h1").innerHTML ="You win!";
 
 }
 
 else if (randomNumber2 > randomNumber1) {
-    document.querySelector("h1").innerHTML ="Player 2 wins!";
+    document.querySelector("h1").innerHTML ="Computer wins!";
 }
 
 else {
